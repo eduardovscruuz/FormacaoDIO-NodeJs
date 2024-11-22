@@ -1,0 +1,20 @@
+{
+  "name": "npm-scripts",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "iniciar": "node src/index.js && mkdir dist",
+    "test": "echo \"Hello World!\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "chalk": "^5.3.0"
+  },
+  "devDependencies": {
+    "log-symbols": "^7.0.0"
+  }
+}
