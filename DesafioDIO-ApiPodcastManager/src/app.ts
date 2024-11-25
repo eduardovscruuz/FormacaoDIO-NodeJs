@@ -1,9 +1,9 @@
 import * as http from 'http';
 
-import { getListEpisodes, getFilterEpisodes } from './controllers/podscasts-controller';
+import { getListEpisodes, getFilterEpisodes } from './controllers/podcasts-controller';
 
 import { Routes } from './routes/routes';
-import { HttpMethod } from './utils/http-methods';
+import { HttpMethod } from './utils/http-method';
 
 export const app = async (request: http.IncomingMessage, response: http.ServerResponse) => {
   const baseUrl = request.url?.split('?')[0];
